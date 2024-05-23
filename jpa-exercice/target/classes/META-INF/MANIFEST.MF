@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Othman
+Build-Jdk: 17.0.8.1
+Specification-Title: jpa-exercice
+Specification-Version: 0.0
+Implementation-Title: jpa-exercice
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: net.javaJpa
+Created-By: Maven Integration for Eclipse
+
