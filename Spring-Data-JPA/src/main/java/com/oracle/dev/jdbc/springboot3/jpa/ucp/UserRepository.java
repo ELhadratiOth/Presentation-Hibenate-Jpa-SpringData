@@ -25,6 +25,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 interface UserRepository extends JpaRepository<User, Integer>,UserCustomRepository {
-  List<User> findUserByRole(int RoleId);
+  List<User> findUserByRoles(Role roles);
   
 }

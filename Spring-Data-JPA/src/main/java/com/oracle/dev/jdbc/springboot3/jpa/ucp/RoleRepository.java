@@ -5,6 +5,6 @@ import java.util.List;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 interface RoleRepository extends JpaRepository<Role, Integer> {
-    List<Role> findRoleByUser(int userId);
+    List<Role> findRoleByUsers(User user);
 
 }
