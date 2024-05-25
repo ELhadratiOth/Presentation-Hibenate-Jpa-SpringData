@@ -1,0 +1,12 @@
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/Role.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/User.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/UserRepository.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/Application.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/RoleRepository.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/Command.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/UserCustomRepositoryImpl.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/UserNotFoundAdvice.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/CommandRepository.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/UserNotFoundException.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/UserCustomRepository.java
+/home/josh/Documents/Javacodes/java-projects/23c-springboot3-jpa-ucp-main/src/main/java/com/oracle/dev/jdbc/springboot3/jpa/ucp/UserController.java
