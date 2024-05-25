@@ -2,6 +2,7 @@ package com.oracle.dev.jdbc.springboot3.jpa.ucp;
 import java.io.Serializable;
 import java.util.Date;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -14,11 +15,12 @@ import jakarta.persistence.Table;
 @Table(name = "T_COMMANDS", schema = "SYSTEM")
 public class Command implements Serializable {
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name = "IDCOMMAND")
     private int idCommand;
     
-    @ManyToOne @JoinColumn(name="idUser", nullable=false)
+    @ManyToOne @JoinColumn(name="IDUSER", nullable=false)
     private User user;
-    
+    @Column(name = "COMMANDDATE")
     private Date commandDate;
     
     

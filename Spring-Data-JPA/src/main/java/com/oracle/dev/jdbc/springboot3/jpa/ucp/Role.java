@@ -3,6 +3,7 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
@@ -16,7 +17,9 @@ import jakarta.persistence.Table;
 @Table(name = "T_ROLES", schema = "SYSTEM")
 public class Role implements Serializable {
 	@Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name = "IDROLE")
     private int idRole;
+	 @Column(name = "ROLENAME")
     private String roleName;
     @ManyToMany(mappedBy = "roles",fetch = FetchType.EAGER)
     private List<User> users;

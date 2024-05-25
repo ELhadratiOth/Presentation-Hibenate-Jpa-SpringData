@@ -48,7 +48,6 @@ public class Application {
         user1.setRoles(Arrays.asList(adminRole, userRole));
         user2.setRoles(Arrays.asList(userRole));
         userRep.saveAll(Arrays.asList(user1, user2));
-        user1.setRoles(null);
         Command command1 = new Command(223,user1, new Date());
         Command command2 = new Command(458,user2, new Date());
         cmdRep.saveAll(Arrays.asList(command1, command2));

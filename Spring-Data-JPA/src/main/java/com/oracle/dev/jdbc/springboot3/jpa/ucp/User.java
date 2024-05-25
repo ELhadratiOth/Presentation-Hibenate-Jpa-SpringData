@@ -26,6 +26,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
@@ -42,16 +43,19 @@ public class User implements Serializable{
 
 
     @Id @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @Column(name = "IDUSER")
     private int idUser;
+    @Column(name = "LOGIN")
     private String login;
+    @Column(name = "PASSWORD")
     private String password;
     
     @OneToMany( targetEntity=Command.class, mappedBy="user",fetch = FetchType.EAGER )
     private List<Command> commands = new ArrayList<>();
     @ManyToMany(fetch = FetchType.EAGER)
     @JoinTable( name = "T_Users_Roles_Associations",
-                joinColumns = @jakarta.persistence.JoinColumn( name = "idUser" ),
-                inverseJoinColumns = @jakarta.persistence.JoinColumn( name = "idRole" ) )
+                joinColumns = @jakarta.persistence.JoinColumn( name = "IDUSER" ),
+                inverseJoinColumns = @jakarta.persistence.JoinColumn( name = "IDROLE" ) )
     private List<Role> roles = new ArrayList<>();
 	public User() {
 	}
